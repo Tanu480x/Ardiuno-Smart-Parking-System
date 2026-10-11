@@ -60,15 +60,33 @@ The components may vary depending on your implementation.
     Develop a mobile or web application to display parking availability.
     Add real-time data logging and parking analytics.
 
-📚 Learning Outcomes
+📚 Learning Outcomes & Challenges Faced
 
-Through this project, I explored:
+Building this Smart Parking System using Arduino helped me gain practical experience with embedded systems, sensor calibration, hardware interfacing, and troubleshooting.
+🎯 What I Learned
 
-    Arduino programming and microcontroller fundamentals
-    Sensor interfacing and vehicle detection
-    Hardware connections and circuit design
-    Embedded systems and automation
-    Real-world applications of smart parking technology
+    How to interface sensors with an Arduino microcontroller.
+    How to calibrate sensors for reliable vehicle detection.
+    How to work with I2C communication for interfacing displays.
+    How to install and use external libraries in the Arduino IDE.
+    How to debug hardware and software issues in a real-world project.
+    The importance of testing each component before integrating the complete system.
+
+⚠️ Mistakes I Made & Lessons Learned
+
+During the development of this project, I encountered several challenges that helped me understand the importance of proper configuration and troubleshooting.
+
+    Incorrect Sensor Calibration: Initially, I set the sensor calibration threshold too high, which affected the accuracy of vehicle detection. I learned that sensor thresholds must be adjusted and tested according to the surrounding conditions and the sensor's actual readings.
+
+    I2C Configuration Issues: I initially struggled with configuring the I2C interface for the display. This taught me the importance of checking the I2C address, wiring, and library configuration to ensure proper communication between the Arduino and the display.
+
+    Missing Servo Motor Library: I did not initially know that the required servo library needed to be available in the Arduino IDE before using its functions. I learned how to identify library dependencies and configure the development environment properly. For standard Arduino boards, the Servo library is often already available; if it is missing, it can be installed through the Arduino IDE's Library Manager.
+
+💡 Key Takeaway
+
+These mistakes taught me that building a working hardware project is not just about writing code. Proper sensor calibration, correct communication settings, library management, and systematic debugging are equally important.
+
+Each challenge helped me improve my troubleshooting skills and understand how small configuration errors can affect the performance of an entire embedded system.
 
 🤝 Contributing
 
